@@ -40,7 +40,7 @@ for movie_id, count in top200_movie:
         mostRatedMovies.append((movie_id, movie_title[0]))
 
 # Random shuffle
-selectedMovies = random.sample(mostRatedMovies, 20)
+selectedMovies = random.sample(mostRatedMovies, 40)
 
 def elicitateRatings(selectedMovies):
     user_ratings = []
