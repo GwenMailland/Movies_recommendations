@@ -6,7 +6,8 @@ This repository contains a collaborative filtering movie recommendation system i
 
 Files and Data
 
-- `recommendation_system.py`: PySpark script implementing the recommendation system.
+- `Movies_suggestions_10M.py`: Using dataset ml-10M100K
+- `Movies_suggestions_25M.py`: Using dataset ml-25m (find it here: https://grouplens.org/datasets/movielens/25m/)
 - `ml-10M100K/ratings.dat`: Movie ratings dataset in the format (UserID, MovieID, Rating).
 - `ml-10M100K/movies.dat`: Movies dataset in the format (MovieID, Title).
 
