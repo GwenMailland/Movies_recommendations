@@ -13,22 +13,16 @@ Files and Data
 
 Usage
 
-1. **Install Dependencies:**
+**Install Dependencies:**
    Make sure you have PySpark installed on your system. You can install it using the following command:
    ```bash
    pip install pyspark
    ```
-
-2. **Run the Recommendation System:**
-   Execute the `recommendation_system.py` script to generate movie recommendations. You can run the script using the following command:
-   ```bash
-   spark-submit recommendation_system.py
-   ```
-
-3. **Provide Ratings:**
+   
+**Provide Ratings:**
    Follow the prompts to rate a selection of movies. Enter ratings between 1 and 5, or 0 if you don't know. This input is used to generate personalized recommendations.
 
-4. **Results:**
+**Results:**
    The script will output the Mean Squared Error (MSE) of the recommendation model on the test data and provide the top-k movie recommendations for a specified user.
 
 ## Additional Information
